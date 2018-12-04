@@ -91,6 +91,9 @@ grafana:
 
 fluent:
   enabled: false
+  filter:
+    mergeJSONLog: true
+    enableExclude: true
   backend:
     type: http
     http:
